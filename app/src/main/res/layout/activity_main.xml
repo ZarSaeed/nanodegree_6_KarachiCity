@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+android:orientation="vertical"
+
+    tools:context="com.example.zar.karachicity.MainActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_hotel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hotel"
+                android:gravity="start"
+                android:background="@drawable/bed"
+                />
+            <Button
+                android:id="@+id/button_resturant"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/resturants"
+                android:gravity="start"
+                android:textColor="@android:color/white"
+                android:background="@drawable/resturant"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button
+                android:focusable="true"
+                android:id="@+id/button_menusments"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/menusments"
+                android:gravity="start"
+                android:background
+                    ="@drawable/mazar"/>
+            <Button
+                android:id="@+id/button_park"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/parks"
+                android:gravity="start"
+                android:background="@drawable/park"
+                />
+        </LinearLayout>
+
+
+
+
+<!--
+  <TextView
+      android:layout_width="@dimen/width"
+      android:layout_height="wrap_content"
+      android:text="@string/hotel"
+      android:padding="@dimen/bottom"
+      android:gravity="center"
+      android:textSize="@string/textsize"
+      android:background="@android:color/holo_blue_bright"
+      android:layout_marginBottom="@dimen/margin_bottom"
+      />
+    <TextView
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:text="@string/parks"
+        android:padding="@dimen/bottom"
+        android:gravity="center"
+        android:textSize="@string/textsize"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginBottom="@dimen/margin_bottom"/>
+    <TextView
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:text="@string/resturants"
+        android:padding="@dimen/bottom"
+        android:gravity="center"
+        android:textSize="@string/textsize"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:background="@android:color/holo_blue_bright"/>
+    <TextView
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:text="@string/menusments"
+        android:padding="@dimen/bottom"
+        android:gravity="center"
+        android:textSize="@string/textsize"
+        android:background="@android:color/holo_blue_bright"/>-->
+</LinearLayout>

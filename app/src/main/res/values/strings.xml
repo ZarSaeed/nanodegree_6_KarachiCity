@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KarachiCity</string>
+    <string name="hotel">Hotel\'s</string>
+    <string name="parks">Park\'s</string>
+    <string name="resturants">Resturant\'s</string>
+    <string name="menusments">Monument\'s</string>
+    <string name="textsize">20dp</string>
+
+</resources>
